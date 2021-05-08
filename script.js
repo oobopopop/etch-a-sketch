@@ -20,18 +20,15 @@ function createGrid(columns){
 function newGrid(){
     const btn = document.querySelector('.clear');
     btn.onclick = function promptSides(){
-        const sides = prompt('How many sides?');
+        const sides = prompt('How many squares per side? (1-100)');
+        const grid = document.querySelector('.grid');
+        grid.textContent = '';
+
         if (sides > 0 && sides < 101){
-            for (i > 0; i < 101; i++){
-                /*
-                remove all children from grid, then createGrid(sides)
-                */
-            }
-    
-        }
-        
+                createGrid(sides);
+        } 
     }
 }
 
-createGrid(4);
+createGrid(16);
 newGrid();
