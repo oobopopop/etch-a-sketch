@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid {
+display: grid;
+gap: 1px; 
+width: 700px;
+margin: auto;
+padding-top: 5rem;
+
+
+}
+
+.grid > div {
+
+    background: black;
+    padding: 0.1rem;
+}
+
+.grid > div::before {
+    content: "";
+    padding-top: 100%;
+    display: block;
+}
+
+
+
+.white {
+    background: white;
+}
