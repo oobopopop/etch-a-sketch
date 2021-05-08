@@ -9,9 +9,7 @@ display: grid;
 gap: 1px; 
 width: 700px;
 margin: auto;
-padding-top: 5rem;
-
-
+padding-top: 2rem;
 }
 
 .grid > div {
@@ -27,7 +25,13 @@ padding-top: 5rem;
 }
 
 
-
-.white {
-    background: white;
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
 }
+
+.clear {
+
+  }
+  
