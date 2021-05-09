@@ -7,8 +7,6 @@ function getRandomColor() {
     return color;
   }
 
-
-
 function createGrid(columns){
     
     for (let i = 0; i < (columns ** 2); i++){
